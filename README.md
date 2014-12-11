@@ -1,27 +1,26 @@
-cimesr: analysing canopy geometry and solar radiation regimes using
-    hemispherical photographs
-====
+cimesr: analysing canopy geometry and solar radiation regimes using hemispherical photographs
+===========
 
 Version: 0.1-dev
 
 ## Development
 
-* The cimesr package is now in development. It is an R implementation of the software bundle CIMES-FISHEYE which was mainly developed by Jean-Michel Walter. 
+The cimesr package is now in development. It is an R implementation of the software bundle CIMES-FISHEYE which was developed by Jean-Michel Walter. 
 
 ## Features
 
-* At the moment only the canopy openness function is available. This function calulcates gap distribution, canopy openness, canopy closure, fraction diffuse light and can correct for aspect and slope.
+At the moment only the canopy openness function is available. This function calulcates gap distribution, canopy openness, canopy closure, fraction diffuse light and can correct for aspect and slope.
 
 ## Installation
 
-* Development version from Github:
+Development version from Github:
 ```
 library("devtools"); install_github("cimesr", "ggranath", dependencies=TRUE)
 ```
 This requires `devtools` (`install.packages("devtools")`)and the approach builds the package from source. Adding `build_vignettes=FALSE` can help if you have trouble installing.
 
 ## Citation
-*To cite `cimesr`, use `citation("cimesr")`
+To cite `cimesr`, run `citation("cimesr")`
 
 ## Usage
 ```
