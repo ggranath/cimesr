@@ -1,0 +1,8 @@
+useDynLib(cimesr)
+export(AutoThres)
+export(ReadImg)
+export(fraction)
+export(openness)
+export(threshold)
+importFrom(readbitmap, read.bitmap)
+importFrom(Rcpp, evalCpp)

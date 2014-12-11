@@ -1,0 +1,21 @@
+citHeader("To cite cimesr in publications use (preferably both):")
+citEntry(entry = "Article",
+title = "CIMES: A package of programs for determining canopy geometry and solar radiation regimes through hemispherical photographs",
+journal = "Computers and Electronics in Agriculture",
+author = personList(person("Alemu Gonsamo"), person("Jean-Michel N. Walter"), person("Petri Pellikka")),
+year = "2011",
+url = "http://www.sciencedirect.com/science/article/pii/S0168169911002286",
+textVersion =
+paste("Gonsamo, Alemu and Walter, Jean-Michel N. and Pellikka, Petri (2011).",
+"CIMES: A package of programs for determining canopy geometry and solar radiation regimes through hemispherical photographs.",
+"Computers and Electronics in Agriculture, 79:207-215. URL: http://www.sciencedirect.com/science/article/pii/S0168169911002286")
+)
+citEntry(entry = "Manual",
+title = "cimesr: analysing canopy geometry and solar radiation regimes using hemispherical photographs",
+author = "Gustaf Granath, Alemu Gonsamo, Jean-Michel N. Walter",
+year = "2014",
+note = "R package version 0.1.0",
+url = "https://github.com/ropensci/taxize",
+textVersion =
+paste("Gustaf Granath, Alemu Gonsamo and Jean-Michel N. Walter (2014) cimesr: analysing canopy geometry and solar radiation regimes using hemispherical photographs. https://github.com/ggranath/cimesr")
+)

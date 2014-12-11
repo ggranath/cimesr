@@ -1,0 +1,28 @@
+Package: cimesr
+Type: Package
+Title: cimesr: analysing canopy geometry and solar radiation regimes using
+    hemispherical photographs
+Version: 0.1-0
+Date: 2014-11-17
+Author@R: c(person("Granath", "Gustaf", role=c("aut","cre"), comment = "R port,
+    author of additional functions"), person("Gonsamo", "Alemu", role=c("aut"),
+    comment = "contributing author to the CIMES software"), person("Walter",
+    "Jean-Michel", role=c("aut"), comment = "original developer of the CIMES
+    software))
+Author: Gustaf Granath, Alemu Gonsamo, Jean-Michel Walter
+Maintainer: Gustaf Granath <gustaf.granath@gmail.com>
+Description: This package is for analyzing structural properties of forest
+    canopies using digital hemispherical photographs (fish-eye images). At the
+    moment only functions to estimate openness are included but eventually you
+    will be able to estimate canopy attributes like gap size, morphology and
+    distribution, and vegetation indices like canopy and site openness, leaf
+    area index (LAI), leaf angle distribution and clumping factors. Cimesr is
+    an R implementation of the software CIMES-FISHEYE.
+License: GPL-3
+Imports:
+    Rcpp (>= 0.11.1),
+    readbitmap (>= 0.1-4)
+LinkingTo: Rcpp
+Suggests:
+    pixmap
+URL: https://github.com/ggranath/cimesr/
