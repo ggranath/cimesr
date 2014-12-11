@@ -17,7 +17,7 @@ Development version from Github:
 ```
 library("devtools"); install_github("cimesr", "ggranath", dependencies=TRUE)
 ```
-This requires `devtools` (`install.packages("devtools")`)and the approach builds the package from source. Adding `build_vignettes=FALSE` can help if you have trouble installing.
+This requires `devtools` (`install.packages("devtools")`) and the approach builds the package from source.
 
 ## Citation
 To cite `cimesr`, run `citation("cimesr")`
