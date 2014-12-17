@@ -11,6 +11,10 @@
 ##' @param Azimut integer; the number of sectors in the horizontal plant
 ##' @param declination the magnetic declination in degrees at the site 
 ##' @return a list
+##' (1) zenith angles, in degrees, mid-point values. 
+##' (2) azimuth angles, degrees, mid-point values 
+##' (3) gap fractions 
+##' (4) total number of pixels in each sky division. 
 ##'
 ##' @author  Gustaf Granath, Alemu Gonsamo, Jean-Michel Walter
 ##.'

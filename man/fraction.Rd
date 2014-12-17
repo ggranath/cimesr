@@ -16,6 +16,10 @@ fraction(mat, Zenith = 18, Azimut = 24, declination = 0)
 }
 \value{
 a list
+(1) zenith angles, in degrees, mid-point values.
+(2) azimuth angles, degrees, mid-point values
+(3) gap fractions
+(4) total number of pixels in each sky division.
 }
 \description{
 Gap fraction extractor (white pixels) for each sky segment which are defined by number of zenith annuli (vertical plane) and azimuth sectors (horizontal plane).

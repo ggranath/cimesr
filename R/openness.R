@@ -24,7 +24,7 @@
 ##'
 ##' @param fracList a list returned by the \code{fraction()} function
 ##' @param slope numeric; in degrees (0-90 deg)
-##' @param aspect numeric; in degrees (0-360 deg)
+##' @param aspect numeric; in degrees (0-360 deg). Starting north, eastward.
 ##' @param imgId the name of the image/plot 
 ##' @return a list
 ##' @return (1) Zenith angle 

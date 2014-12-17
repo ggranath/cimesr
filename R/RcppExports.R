@@ -5,6 +5,10 @@ BMPPolarProjectionR <- function(Vs, h, w, nZenithR, nAzimutR, a0R, revNum) {
     .Call('cimesr_BMPPolarProjectionR', PACKAGE = 'cimesr', Vs, h, w, nZenithR, nAzimutR, a0R, revNum)
 }
 
+BMPPolarGroupingR <- function(Vs, height, width, ZinfR, ZsupR, ZpasR) {
+    .Call('cimesr_BMPPolarGroupingR', PACKAGE = 'cimesr', Vs, height, width, ZinfR, ZsupR, ZpasR)
+}
+
 opennessR <- function(fracR, slopeR, aspectR, imgId) {
     .Call('cimesr_opennessR', PACKAGE = 'cimesr', fracR, slopeR, aspectR, imgId)
 }

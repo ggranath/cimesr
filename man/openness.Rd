@@ -10,7 +10,7 @@ openness(fracList, slope = 0, aspect = 0, imgId = "1")
 
 \item{slope}{numeric; in degrees (0-90 deg)}
 
-\item{aspect}{numeric; in degrees (0-360 deg)}
+\item{aspect}{numeric; in degrees (0-360 deg). Starting north, eastward.}
 
 \item{imgId}{the name of the image/plot}
 }
