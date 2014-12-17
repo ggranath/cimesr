@@ -36,8 +36,14 @@ AutoThres <- function (mat, start = 30, limit = 1.5, plot = FALSE) {
     m1 <- mean(dens$density[start:(start + 2)]) #mean over 3 values
     m2 <- mean(dens$density[(start + 3):(start + 5)]) # and the mean over the next 3 values
     start = start +3
-    change <- m2/m1 # calc change and then check if its more than a 50% increase
-    
+    print(start)
+    if(m2 == 0 | m1==0) { 
+                          if(start > 90) {change = 2}
+                                          else
+                                          {change = 1}
+                          } 
+          else 
+            {change <- m2/m1} # calc change and then check if its more than a 50% increase    
   }
   threshold <- start/100
   if(plot == TRUE) {
