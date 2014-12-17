@@ -4,7 +4,7 @@ cimesr: analysing canopy geometry and solar radiation regimes using hemispherica
 Version: 0.1-dev
 
 ##Updates
-It is now possible to extract gap size `size()` but no functions to use this data has been implemented yet.
+It is now possible to extract gap size `size()` but no functions to use this data have been implemented yet.
 
 ## Development
 
