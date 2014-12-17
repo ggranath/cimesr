@@ -1,4 +1,4 @@
-// fraction.cpp: cimes function to extract white/black pixels in sky segments 
+// gfa_fraction.cpp: cimes function to extract white/black pixels in sky segments 
 // GNU Copyright (C) 1982-2014 by Jean-Michel Walter. Contributors: Alemu Gonsamo
 // Modifications for R implementation by Gustaf Granath 2014
 //
@@ -15,6 +15,10 @@ const double pi=3.14159265358979323846;
 
 SEXP BMPPolarProjectionR(SEXP Vs, SEXP h, SEXP w, SEXP nZenithR, SEXP nAzimutR, SEXP a0R, SEXP revNum)
 {
+  
+  // int BMPPolarProjection(t_Bitmap *B, int nZenith, int nAzimut, double a0, char *name)
+  // {
+
   //FILE *r;
   
   //read in R data
