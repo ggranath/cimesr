@@ -3,6 +3,9 @@ cimesr: analysing canopy geometry and solar radiation regimes using hemispherica
 
 Version: 0.1-dev
 
+##Updates
+It is now possible to extract gap size `size()` but no functions to use this data has been implemented yet.
+
 ## Development
 
 The cimesr package is now in development. It is an R implementation of the software bundle CIMES-FISHEYE which was developed by Jean-Michel Walter. 
