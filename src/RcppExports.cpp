@@ -26,6 +26,26 @@ BEGIN_RCPP
     return __sexp_result;
 END_RCPP
 }
+// BMPPolarGroupingR
+SEXP BMPPolarGroupingR(SEXP Vs, SEXP height, SEXP width, SEXP ZinfR, SEXP ZsupR, SEXP ZpasR);
+RcppExport SEXP cimesr_BMPPolarGroupingR(SEXP VsSEXP, SEXP heightSEXP, SEXP widthSEXP, SEXP ZinfRSEXP, SEXP ZsupRSEXP, SEXP ZpasRSEXP) {
+BEGIN_RCPP
+    SEXP __sexp_result;
+    {
+        Rcpp::RNGScope __rngScope;
+        Rcpp::traits::input_parameter< SEXP >::type Vs(VsSEXP );
+        Rcpp::traits::input_parameter< SEXP >::type height(heightSEXP );
+        Rcpp::traits::input_parameter< SEXP >::type width(widthSEXP );
+        Rcpp::traits::input_parameter< SEXP >::type ZinfR(ZinfRSEXP );
+        Rcpp::traits::input_parameter< SEXP >::type ZsupR(ZsupRSEXP );
+        Rcpp::traits::input_parameter< SEXP >::type ZpasR(ZpasRSEXP );
+        SEXP __result = BMPPolarGroupingR(Vs, height, width, ZinfR, ZsupR, ZpasR);
+        PROTECT(__sexp_result = Rcpp::wrap(__result));
+    }
+    UNPROTECT(1);
+    return __sexp_result;
+END_RCPP
+}
 // opennessR
 SEXP opennessR(SEXP fracR, SEXP slopeR, SEXP aspectR, SEXP imgId);
 RcppExport SEXP cimesr_opennessR(SEXP fracRSEXP, SEXP slopeRSEXP, SEXP aspectRSEXP, SEXP imgIdSEXP) {
